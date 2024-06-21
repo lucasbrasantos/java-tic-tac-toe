@@ -5,13 +5,16 @@ public class TicTacToe {
     static String bgChar = "-";
     static String[] board = {bgChar, bgChar, bgChar, bgChar, bgChar, bgChar, bgChar, bgChar, bgChar};
 
+    static final Scanner input = new Scanner(System.in);
+
     static void clearScreen() {
         System.out.print("\033[H\033[2J");
         System.out.flush();
     }
 
-    static void continue(){
-        
+    private static void pressEnterToContinue() {
+        System.out.println("Press Enter to continue...");
+        input.nextLine();        
     }
 
     static void printExBoard() {
@@ -36,8 +39,7 @@ public class TicTacToe {
         System.out.println();
     }
 
-    static void inputMove(String player) {
-        Scanner input = new Scanner(System.in);
+    static void inputMove(String player) {        
 
         while (true) {
             System.out.printf("Player %s, choose a position from 1-9: ", player);
@@ -97,7 +99,7 @@ public class TicTacToe {
         
         String currentPlayer = "X";
         boolean gameover = false;
-
+        pressEnterToContinue();
         while (!gameover) {
             clearScreen();
             printBoard();
