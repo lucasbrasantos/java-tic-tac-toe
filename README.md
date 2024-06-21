@@ -16,6 +16,14 @@ Welcome to the Tic Tac Toe game, a simple console-based Java application! This p
 
 This is a console-based implementation of the classic Tic Tac Toe game. The game is played on a 3x3 grid where two players take turns marking spaces in an attempt to get three of their marks in a row, column, or diagonal.
 
+![image](https://github.com/lucasbrasantos/java-tic-tac-toe/assets/78361979/5d0550d8-bcac-4725-b1fb-530ef851f75d)
+<br>
+![image](https://github.com/lucasbrasantos/java-tic-tac-toe/assets/78361979/ef712b13-eb0d-4286-8783-aa88231cab48)
+<br>
+![image](https://github.com/lucasbrasantos/java-tic-tac-toe/assets/78361979/291e444b-7b52-45fd-8bef-497204f57df8)
+
+
+
 ## Features
 
 - Two-player gameplay (Player X and Player O)
