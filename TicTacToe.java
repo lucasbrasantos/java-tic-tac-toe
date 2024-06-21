@@ -94,7 +94,7 @@ public class TicTacToe {
     }
 
     public static void main(String[] args) {
-        System.out.println("Welcome to Tic Tac Toe!");
+        System.out.println("\n\n\n\n=======================\nWelcome to Tic Tac Toe!\n=======================\n");
         printExBoard();
         
         String currentPlayer = "X";
